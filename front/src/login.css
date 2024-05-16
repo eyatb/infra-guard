@@ -1,0 +1,43 @@
+
+
+  .loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    background-image: url('logofinal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  
+  .loginForm {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    max-width: 400px;
+    margin-right: 50rem; /* change this value to adjust the position */
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .loginPage {
+      flex-direction: column;
+    }
+  
+    .loginForm {
+      margin-right: 0;
+      margin-top: 20px;
+    }
+  }
+  .loginForm button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+    background-image: radial-gradient(100% 100% at 100% 0, #6f8fca 0, #0f96cc 100%);
+    border: none;
+
+  }
